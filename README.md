@@ -8,10 +8,6 @@ A movie browsing and favorites app built with React, based on the [Tech With Tim
 - Add/remove favorites
 - Responsive UI
 
-## Demo
-
-![Movie App Screenshot](./assets/MovieApp.png)
-
 ## Movie API
 
 This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org/) for movie data.
