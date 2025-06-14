@@ -22,8 +22,7 @@ This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/sathiranipun/movie-hub.git
    ```
 
 2. **Install dependencies:**
