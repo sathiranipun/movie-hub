@@ -26,13 +26,30 @@ This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org
    ```
 
 3. **Set up environment variables:**
-   - Create a `.env` file in the root directory.
+   - You need to create a `.env` file in your project root. Use the `.env_sample` file for reference.
    - Add your TMDb API key and other config as needed.
 
 4. **Run the app:**
    ```bash
    npm start
    ```
+
+## Environment Variables
+
+This project requires an API key from [The Movie Database (TMDb)](https://www.themoviedb.org/).
+
+1. **Copy the sample environment file:**
+   ```bash
+   cp .env.sample .env
+   ```
+2. **Open `.env` and add your TMDb API key:**
+   ```
+   REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here
+   ```
+
+3. **Save the file.**
+
+> **Note:** Please refer to the `.env.sample` file in this project to create your own `.env` file with the required environment variables.
 
 ## Credits
 
