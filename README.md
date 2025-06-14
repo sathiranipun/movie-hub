@@ -8,6 +8,12 @@ A movie browsing and favorites app built with React, based on the [Tech With Tim
 - Add/remove favorites
 - Responsive UI
 
+## Used Technologies
+
+- React
+- JavaScript (ES6+)
+- CSS 
+
 ## Movie API
 
 This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org/) for movie data.
@@ -29,33 +35,20 @@ This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org
    - You need to create a `.env` file in your project root. Use the `.env_sample` file for reference.
    - Add your TMDb API key and other config as needed.
 
+> **Do not** commit your `.env` file.
 4. **Run the app:**
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Environment Variables
 
 This project requires an API key from [The Movie Database (TMDb)](https://www.themoviedb.org/).
 
-1. **Copy the sample environment file:**
-   ```bash
-   cp .env.sample .env
-   ```
-2. **Open `.env` and add your TMDb API key:**
-   ```
-   REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here
-   ```
-
-3. **Save the file.**
-
-> **Note:** Please refer to the `.env.sample` file in this project to create your own `.env` file with the required environment variables.
 
 ## Credits
 
 - Tutorial by [Tech With Tim](https://www.youtube.com/@TechWithTim)
 - Movie data provided by [The Movie Database (TMDb)](https://www.themoviedb.org/)
 
----
 
-Feel free to customize this README for your project!
