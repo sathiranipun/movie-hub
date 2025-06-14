@@ -1,12 +1,48 @@
-# React + Vite
+# React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie browsing and favorites app built with React, based on the [Tech With Tim YouTube tutorial](https://youtu.be/G6D9cBaLViA?si=vEjt1BkpSc4arT7B).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse movies
+- Add/remove favorites
+- Responsive UI
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Movie App Screenshot](./assets/MovieApp.png)
+
+## Movie API
+
+This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org/) for movie data.
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your TMDb API key and other config as needed.
+
+4. **Run the app:**
+   ```bash
+   npm start
+   ```
+
+## Credits
+
+- Tutorial by [Tech With Tim](https://www.youtube.com/@TechWithTim)
+- Movie data provided by [The Movie Database (TMDb)](https://www.themoviedb.org/)
+
+---
+
+Feel free to customize this README for your project!
